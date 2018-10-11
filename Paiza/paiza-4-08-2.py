@@ -21,7 +21,10 @@
 # おみくじプログラム
 
 import random
-line = input().rstrip()
+line = input().rstrip().split(",")
+for result in line:
+    print(result+"のおみくじを引いた！")
+
 
 # 今回は自力で全部書いてみよう！
 
